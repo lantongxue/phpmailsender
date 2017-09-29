@@ -39,6 +39,7 @@ $m->setTo('test2@mail.xx.com');
 //$m->setBCC('test4@mail.xx.com');
 //$m->setCC('test3@mail.xx.com');
 
+//$m->setFrom('test3@mail.xx.com');
 $m->setFrom(array('label'=>'Admin Group','address'=>'test3@mail.xx.com'));
 
 $m->setSubject('code:'.rand());
