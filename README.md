@@ -1,4 +1,4 @@
-# phpmailer
+# phpmailsender
 easy php mail sender
 
 # feature
