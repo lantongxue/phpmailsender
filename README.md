@@ -10,8 +10,10 @@ easy php mail sender
 6. easy expansion
 7. support php all version (recommend 5.3.0 and later)
 8. ......
+
 # defect
 1. attachments are not supported
+
 # example
 ```php
 $options = array(
