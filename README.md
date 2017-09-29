@@ -13,7 +13,7 @@ easy php mail sender
 # defect
 1. attachments are not supported
 # example
-```
+```php
 $options = array(
 	'smtp_host' => 'mail.xx.com',
 	'smtp_port' => 25,
