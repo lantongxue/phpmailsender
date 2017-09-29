@@ -8,9 +8,10 @@ easy php mail sender
 4. small size only 10kb
 5. single file, simple reference
 6. easy expansion
-7. support php all version
+7. support php all version (recommend 5.3.0 and later)
 8. ......
-
+# defect
+1. attachments are not supported
 # example
 ```
 $options = array(
@@ -38,7 +39,7 @@ $m->setTo('test2@mail.xx.com');
 //$m->setBCC('test4@mail.xx.com');
 //$m->setCC('test3@mail.xx.com');
 
-$m->setFrom(array('label'=>'管理员','address'=>'ftest3@mail.xx.com'));
+$m->setFrom(array('label'=>'Admin Group','address'=>'test3@mail.xx.com'));
 
 $m->setSubject('code:'.rand());
 
